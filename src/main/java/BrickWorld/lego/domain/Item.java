@@ -69,4 +69,15 @@ public class Item {
         }
         this.quantity = restStock;
     }
+
+    //상품 수정
+    public void changeItem(String name, int price, int quantity, int partsCount, int age, String desc, Category category) {
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+        this.partsCount = partsCount;
+        this.age = age;
+        this.desc = desc;
+        this.category = category;
+    }
 }
